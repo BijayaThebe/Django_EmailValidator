@@ -1,8 +1,9 @@
 # Django_EmailValidator
 Implement the email validation using Django Framework 
 
-
 # Email Validation Flow
+
+```mermaid
 flowchart TD
     A[Input Email List] --> B[For Each Email Extract Domain]
     B --> C[Format Check]
@@ -17,4 +18,5 @@ flowchart TD
 
     style Z fill:#f88,stroke:#000,stroke-width:1px
     style I fill:#8f8,stroke:#000,stroke-width:1px
+
 
